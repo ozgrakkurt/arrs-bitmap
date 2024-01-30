@@ -1,0 +1,13 @@
+[package]
+name = "arrs-bitmap"
+version = "0.0.1"
+edition = "2021"
+license = "MPL-2.0"
+description = "bitmap implementation"
+
+[dependencies]
+arrs-buffer = "0.0.2"
+
+[dev-dependencies]
+rand = "0.8.5"
+rand_chacha = "0.3.1"
